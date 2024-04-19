@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="F:\Study\Homework\HW3\swig-download\CMakeFiles\483a02aeab7911a08cd86743e692db21\SWIG_project-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Study\Homework\HW3\swig-download\CMakeFiles\483a02aeab7911a08cd86743e692db21\SWIG_project-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Study\Homework\HW3\swig-download\CMakeFiles\483a02aeab7911a08cd86743e692db21\SWIG_project-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Study\Homework\HW3\swig-download\CMakeFiles\483a02aeab7911a08cd86743e692db21\SWIG_project-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Study\Homework\HW3\swig-download\CMakeFiles\483a02aeab7911a08cd86743e692db21\SWIG_project-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Study\Homework\HW3\swig-download\CMakeFiles\483a02aeab7911a08cd86743e692db21\SWIG_project-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Study\Homework\HW3\swig-download\CMakeFiles\483a02aeab7911a08cd86743e692db21\SWIG_project-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Study\Homework\HW3\swig-download\CMakeFiles\483a02aeab7911a08cd86743e692db21\SWIG_project-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Study\Homework\HW3\swig-download\CMakeFiles\58be235c062793e0c4e37e7804abdc1c\SWIG_project-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Study\Homework\HW3\swig-download\CMakeFiles\5ce0ba30effe89e463e1fa031cbb6e75\SWIG_project.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="F:\Study\Homework\HW3\swig-download\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="F:\Study\Homework\HW3\swig-download\CMakeFiles\SWIG_project" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{C20DD018-01A6-3428-9023-ECF8D1EC7274}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

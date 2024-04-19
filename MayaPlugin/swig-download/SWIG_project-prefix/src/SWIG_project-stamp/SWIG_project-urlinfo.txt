@@ -1,0 +1,12 @@
+# This is a generated file and its contents are an internal implementation detail.
+# The download step will be re-executed if anything in this file changes.
+# No other meaning or use of this file is supported.
+
+method=url
+command=C:/Program Files/CMake/bin/cmake.exe;-P;F:/Study/Homework/HW3/swig-download/SWIG_project-prefix/src/SWIG_project-stamp/download-SWIG_project.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-P;F:/Study/Homework/HW3/swig-download/SWIG_project-prefix/src/SWIG_project-stamp/verify-SWIG_project.cmake;COMMAND;C:/Program Files/CMake/bin/cmake.exe;-P;F:/Study/Homework/HW3/swig-download/SWIG_project-prefix/src/SWIG_project-stamp/extract-SWIG_project.cmake
+source_dir=F:/Study/Homework/HW3/swig
+work_dir=F:/Study/Homework/HW3
+url(s)=http://prdownloads.sourceforge.net/swig/swigwin-4.0.2.zip
+hash=
+no_extract=
+

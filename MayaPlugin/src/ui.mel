@@ -1,0 +1,64 @@
+
+global proc option_1()
+{
+    print "option_1 command started\n";
+
+    polySphere;instancer;
+    createNode randomNode;
+    connectAttr pSphere1.matrix instancer1.inputHierarchy[0]; 
+    connectAttr randomNode1.outPoints instancer1.inputPoints; 
+}
+
+global proc option_2()
+{
+	print "option_2 command started\n";
+
+	string $obj[] = `ls -sl`;
+	$item = $obj[0];
+
+    instancer;
+    createNode randomNode;
+    connectAttr ($item+".matrix") instancer1.inputHierarchy[0]; 
+    connectAttr randomNode1.outPoints instancer1.inputPoints; 
+}
+
+global proc option_3()
+{
+	print "option_3 command started\n";
+
+	polyCube;
+	instancer;
+	createNode LSystemInstancerNode;
+	connectAttr pCube1.matrix instancer1.inputHierarchy[0];
+	connectAttr LSystemInstancerNode1.outBranches instancer1.inputPoints;
+
+	polySphere;
+	instancer;
+	connectAttr pSphere1.matrix instancer2.inputHierarchy[0];
+	connectAttr LSystemInstancerNode1.outFlowers instancer2.inputPoints;
+}
+
+
+global proc option_4()
+{
+	print "option_4 command started\n";
+	string $obj[] = `ls -sl`;
+	$branch = $obj[0];
+	$flower = $obj[1];
+	
+	instancer;
+	createNode LSystemInstancerNode;
+	connectAttr ($branch+".matrix") instancer1.inputHierarchy[0];
+	connectAttr LSystemInstancerNode1.outBranches instancer1.inputPoints;
+
+	instancer;
+	connectAttr ($flower+".matrix") instancer2.inputHierarchy[0];
+	connectAttr LSystemInstancerNode1.outFlowers instancer2.inputPoints;
+}
+
+
+menu -parent MayaWindow -label "LSystemInstancer" -tearOff true LSystemInstancerMenu;
+		menuItem -label "1 - Create randomNode network" -command "option_1();"; 
+		menuItem -label "2 - Create randomNode network from obj" -command "option_2();"; 
+		menuItem -label "3 - Create LSystemInstancerNode network" -command "option_3();"; 
+		menuItem -label "4 - Create LSystemInstancerNode network from obj" -command "option_4();"; 

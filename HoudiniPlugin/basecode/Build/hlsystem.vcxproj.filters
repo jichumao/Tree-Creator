@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Study\Homework\Houdini Plugin Framework - H20 VS2022\basecode\src\LSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Study\Homework\Houdini Plugin Framework - H20 VS2022\basecode\src\LSYSTEMPlugin.C">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Study\Homework\Houdini Plugin Framework - H20 VS2022\basecode\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Study\Homework\Houdini Plugin Framework - H20 VS2022\basecode\src\vec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="F:\Study\Homework\Houdini Plugin Framework - H20 VS2022\basecode\src\LSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Study\Homework\Houdini Plugin Framework - H20 VS2022\basecode\src\LSYSTEMPlugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Study\Homework\Houdini Plugin Framework - H20 VS2022\basecode\src\matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="F:\Study\Homework\Houdini Plugin Framework - H20 VS2022\basecode\src\vec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Study\Homework\Houdini Plugin Framework - H20 VS2022\basecode\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{9B47B12E-4146-37B2-BC02-CE8E3F598424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{2979765A-8A9D-3DFF-B7EC-4EEACEE5D86D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
